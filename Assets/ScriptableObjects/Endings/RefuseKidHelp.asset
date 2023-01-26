@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2bb94d2f9fe53142871182c2efd4127, type: 3}
+  m_Name: RefuseKidHelp
+  m_EditorClassIdentifier: 
+  SpeakerName: 
+  Prompt: You try to stand up by yourself but it's no use...
+  PromptOptions: []
+  NextPrompts:
+  - {fileID: 11400000, guid: 7c0cdcb13d9c9bb47b4d6ef708fb4568, type: 2}
+  IsProcedural: 0
+  IsLeadingQuestion: 0
+  KnowsName: 0
+  IsDescriptiveText: 1

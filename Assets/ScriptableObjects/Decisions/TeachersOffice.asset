@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2bb94d2f9fe53142871182c2efd4127, type: 3}
+  m_Name: TeachersOffice
+  m_EditorClassIdentifier: 
+  SpeakerName: Teacher
+  Prompt: Wow... you don't look well. What can I do for you?
+  PromptOptions:
+  - Ask to get back to classroom
+  - Ask to call Parents or to get picked up
+  NextPrompts:
+  - {fileID: 11400000, guid: 1b6fc8640750cfd4c997ee2dfa0fc2e9, type: 2}
+  - {fileID: 11400000, guid: 7380b0df5ad427d4288fda89ca674dec, type: 2}
+  - {fileID: 11400000, guid: 8fa9bcb0f513090478a3f6fca8941dc5, type: 2}
+  IsProcedural: 1
+  IsLeadingQuestion: 1
+  KnowsName: 1
+  IsDescriptiveText: 0

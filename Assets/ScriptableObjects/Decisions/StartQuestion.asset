@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2bb94d2f9fe53142871182c2efd4127, type: 3}
+  m_Name: StartQuestion
+  m_EditorClassIdentifier: 
+  SpeakerName: Kid
+  Prompt: Hey there man, you look pretty sick.
+  PromptOptions:
+  - Ask what happened
+  - Ask kid to help to get back up
+  - Go back to classroom
+  NextPrompts:
+  - {fileID: 11400000, guid: b5228e73e088bce459dbf90480f87531, type: 2}
+  - {fileID: 11400000, guid: 70a2199287fb3fd48b472ff94e42e40e, type: 2}
+  - {fileID: 11400000, guid: 39c45a940fa08ca44bbd2b151654b219, type: 2}
+  - {fileID: 11400000}
+  IsProcedural: 1
+  IsLeadingQuestion: 1
+  KnowsName: 0
+  IsDescriptiveText: 0
