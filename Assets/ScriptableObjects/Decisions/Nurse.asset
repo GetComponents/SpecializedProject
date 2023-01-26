@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2bb94d2f9fe53142871182c2efd4127, type: 3}
+  m_Name: Nurse
+  m_EditorClassIdentifier: 
+  SpeakerName: Nurse
+  Prompt: You look like a walking corpse! What is wrong with you today?
+  PromptOptions:
+  - I lost my memory
+  - Something deadly
+  - A curse
+  NextPrompts:
+  - {fileID: 11400000, guid: f1e6dfa2d3a654a4b9ece6221e3d6de8, type: 2}
+  - {fileID: 11400000, guid: f3b8d5087b8b8f54e884de74ef3c5cac, type: 2}
+  - {fileID: 11400000, guid: f3b8d5087b8b8f54e884de74ef3c5cac, type: 2}
+  - {fileID: 11400000, guid: 2e5dbe4c07d2dc14b88693c7e1c36148, type: 2}
+  IsProcedural: 1
+  IsLeadingQuestion: 1
+  KnowsName: 1
+  IsDescriptiveText: 0
