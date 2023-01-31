@@ -1,11 +1,10 @@
 {
   "dependencies": {
     "com.openai.api.unity": {
-      "version": "https://github.com/hexthedev/OpenAi-Api-Unity.git",
+      "version": "file:C:/Users/Jan/Downloads/OpenAi-Api-Unity-0.2.4/OpenAi-Api-Unity-0.2.4",
       "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "6b059eefe7be9d55dcdf0657da971b0ba43071f9"
+      "source": "local",
+      "dependencies": {}
     },
     "com.unity.collab-proxy": {
       "version": "1.5.7",
