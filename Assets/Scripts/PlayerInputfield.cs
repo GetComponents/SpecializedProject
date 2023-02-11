@@ -10,7 +10,7 @@ public class PlayerInputfield : MonoBehaviour
     //public InputField Input;
     public TMP_InputField PlayerInput, DebugInput;
     [SerializeField]
-    OpenAiCompleterV1 analyser;
+    NewAiCompleterV1 analyser;
     public Image LoadingIcon;
 
     public string LastString;

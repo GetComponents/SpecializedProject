@@ -20,7 +20,7 @@ public class StoryManager : MonoBehaviour
     public PromptInfo CurrentPrompt;
 
     [SerializeField]
-    OpenAiCompleterV1 rephraser;
+    NewAiCompleterV1 rephraser;
 
     [SerializeField]
     public TextMeshProUGUI textBox;
