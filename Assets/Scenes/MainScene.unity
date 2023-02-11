@@ -533,7 +533,7 @@ MonoBehaviour:
   ProceduralDialogueEnabled: 1
   StartPrompt: {fileID: 11400000, guid: 9057e51dc305b0347bf98be84044832d, type: 2}
   CurrentPrompt: {fileID: 0}
-  rephraser: {fileID: 0}
+  rephraser: {fileID: 7864716313275475016}
   textBox: {fileID: 951245681}
   WaitingForResponse: 0
   LeadingQuestionIndex: 0
@@ -1876,7 +1876,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerInput: {fileID: 190504896}
   DebugInput: {fileID: 1646453802}
-  analyser: {fileID: 0}
+  analyser: {fileID: 8107163886741003518}
   LoadingIcon: {fileID: 639230061}
   LastString: 
   winStrings:
@@ -2622,6 +2622,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d9b44145522ef646ab3622159f3934e, type: 3}
+--- !u!114 &7864716313275475016 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3995332262098562770, guid: 9d9b44145522ef646ab3622159f3934e, type: 3}
+  m_PrefabInstance: {fileID: 7864716313275475015}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0e39f41e6668424ba6115e6308d8860, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8107163886741003517
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2679,3 +2690,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63c77c3132a521540a6447ff9f72e88b, type: 3}
+--- !u!114 &8107163886741003518 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3086442177598984575, guid: 63c77c3132a521540a6447ff9f72e88b, type: 3}
+  m_PrefabInstance: {fileID: 8107163886741003517}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0e39f41e6668424ba6115e6308d8860, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
